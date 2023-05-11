@@ -1,0 +1,35 @@
+1. Title: 	HIV Epidemic Trends in 12 Sub-Saharan African Countries Over a Decade
+
+2. Data source:		The dataset is public, available for research. 
+			It was obtained from the world bank databank under the Health Nutrition and Population Statistics database.
+			https://databank.worldbank.org/source/health-nutrition-and-population-statistics 
+
+3. Relevant information: 
+
+	The dashboard design goal is to develop a single-screen interactive dashboard to analyze and compare the trends in 
+	HIV epidemic situation across 12 Sub-Saharan African countries with varying HDIs over 12 years. 
+	
+4. Framework: Microsoft Power BI
+
+5. Number of instances: 144
+
+6. Number of attributes: 13
+
+7. Missing attribute value: Yes
+
+8. Attribute information:
+
+Index.No.	Variable 	Type		Description 
+1		Country		Categorical	Angola, Botswana, Cameroon, Chad, Ethiopia, Ghana, Kenya, Lesotho, Mauritania, Rwanda, Senegal, South Africa
+2		Year		Numeric		Time series of 12 years (2010-2021)
+3		HDI		Categorical	High, Low, Medium
+4		Region		Categorical	South, East, West, Central
+5		Death by AIDS	Numeric		Number of death by AIDS and HIV-related deaths
+6		ART PLWH	Numeric		Number of people living with HIV enrolled in Antiretroviral Therapy
+7		Adults LWH	Numeric		Adults living with HIV 
+8		Children LWH	Numeric		Children living with HIV
+9		Undernourished	Numeric		Number of malnourished people
+10		Total PLWH	Numeric		The total population living with HIV
+11		Total PNIWH	Numeric		Total population newly infected with HIV
+12		Total PopulationNumeric		Number of people per country per year
+13		Date		Calendar	Calendar
